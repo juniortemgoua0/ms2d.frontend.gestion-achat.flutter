@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gestion_achat_front/screen/AddClientPage.dart';
 import 'package:gestion_achat_front/screen/HomePage.dart';
+import 'package:gestion_achat_front/screen/ListClientPage.dart';
 import 'package:gestion_achat_front/screen/splashscreen.dart';
 
 void main() {
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
         "/": (context) => SplashScreen(),
         "HomePage": (context) => HomePage(),
         "AddClientPage": (context) => AddClientPage(),
+        "ListClientPage": (context) => ListClientPage(),
       },
     );
   }
